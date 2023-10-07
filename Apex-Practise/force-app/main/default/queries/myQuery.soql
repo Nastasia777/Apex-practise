@@ -1,0 +1,5 @@
+SELECT Name, Industry, AnnualRevenue
+FROM Account
+WHERE AnnualRevenue > 1000000
+ORDER BY Name ASC
+LIMIT 10

@@ -1,0 +1,8 @@
+FIND {Acme}
+IN NAME FIELDS 
+RETURNING 
+    Account (Name, Industry, AnnualRevenue),
+    Contact (FirstName, LastName, Phone),
+    Opportunity (Name, Amount, CloseDate)
+
+
